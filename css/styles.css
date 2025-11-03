@@ -4,20 +4,60 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
+  width: 1440px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* #region header */
 
 .page-header {
   background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -74,6 +114,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  margin-bottom: 48px;
 }
 
 .hero-button-item {
@@ -85,6 +127,8 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   font-family: inherit;
+  padding: 16px 32px;
+  margin-bottom: 188px;
 }
 
 .hero-button-item:hover,
@@ -95,6 +139,11 @@ a {
 /* #endregion hero */
 
 /* #region features */
+
+.section-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .features-contents-tiile {
   font-weight: 500;
@@ -130,6 +179,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-name-photo {
@@ -151,6 +202,7 @@ a {
 
 .page-portfolio {
   color: #2e2f42;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -163,6 +215,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.portfolio-item {
+  padding-bottom: 48px;
 }
 
 .portfolio-name-foto {
@@ -183,6 +240,7 @@ a {
 /* #region footer */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo .text-logo {
   color: #f4f4fd;
