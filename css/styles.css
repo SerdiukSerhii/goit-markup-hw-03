@@ -49,7 +49,7 @@ p {
 
 /* #region header */
 
-.page-header .container {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -134,9 +134,8 @@ p {
 }
 
 .hero-title {
-  display: block;
   margin: 0 auto 48px;
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -145,23 +144,21 @@ p {
 }
 
 .hero-button-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
+  display: block;
   border-radius: 4px;
-  flex-grow: 1;
+  border: none;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
   padding: 16px 32px;
   font-weight: 500;
-  color: #fff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
   cursor: pointer;
   font-family: inherit;
+  color: #fff;
+  background-color: #4d5ae5;
 }
 
 .hero-button-item:hover,
@@ -263,7 +260,7 @@ p {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-name-photo {
@@ -346,14 +343,8 @@ p {
   color: #f4f4fd;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  width: 264px;
-  margin-right: auto;
-}
-
 .footer-item {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -362,7 +353,6 @@ p {
 
 .footer-logo {
   display: inline-block;
-  align-self: flex-start;
   margin-bottom: 16px;
 }
 /* #endregion footer */
