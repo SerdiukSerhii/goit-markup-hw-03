@@ -1,5 +1,7 @@
 /* font-family: "Raleway", sans-serif; */
 
+/* #region basis*/
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -34,6 +36,9 @@ p {
   margin: 0;
 }
 
+li {
+  overflow: hidden;
+}
 /* common */
 
 .section {
@@ -46,6 +51,8 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/* #endregion basis */
 
 /* #region header */
 
@@ -245,16 +252,11 @@ p {
   flex-direction: column;
   border-radius: 0 0 4px 4px;
   text-align: center;
-  width: 264px;
   background-color: #fff;
   width: calc((100% - 72px) / 4);
 }
 
 .team-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
   padding: 32px 0;
 }
